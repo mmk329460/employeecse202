@@ -1,9 +1,9 @@
 import React from 'react'
-import ListEmployeeComponent from './component/ListEmployeeComponent'
-import HeaderComponent from './component/HeaderComponent'
-import FooterComponent from './component/FooterComponent'
+import ListEmployeeComponent from "./components/ListEmployeeComponent";
+import HeaderComponent from "./components/HeaderComponent";
+import FooterComponent from "./components/FooterComponent";
+import EmployeeComponent from "./components/EmployeeComponent";
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import EmployeeComponent from './component/EmployeeComponent'
 
 const App = () => {
   return (
