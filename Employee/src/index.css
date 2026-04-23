@@ -321,3 +321,36 @@ body::after {
     background-position: 300%;
   }
 }
+
+/* 🎥 Video Background */
+.video-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* 🌑 Dark Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* 📊 Content ऊपर */
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Optional: glass effect */
+.table {
+  background-color: rgba(255, 255, 255, 0.1);
+}

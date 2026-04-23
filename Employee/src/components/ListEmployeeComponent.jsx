@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react'
 import { deletEmployee, listEmployee } from '../service/EmployeeService.js'
 import { useNavigate } from 'react-router-dom'
 
+
 const ListEmployeeComponent = () => {
 
  const [employee,setEmployee] =useState([])
@@ -40,14 +41,13 @@ const ListEmployeeComponent = () => {
  return (
   <div className='container'>
 
-      <div className='con' style={{
-        background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-        position: 'fixed',
-        top: 0, left: 0,
-        width: '100%', height: '100%',
-        zIndex: -1
-      }}></div>
+    <video autoPlay loop muted playsInline className="video-bg">
+      <source src="/video.mp4" type="video/mp4" />
+    </video>
 
+     <div className="overlay"></div>
+
+      
 
     <h2 id='A' className='text-center'>List of Employees</h2>
 
